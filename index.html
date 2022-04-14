@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="block">
+        <div class="block-setting">
+            <input class="setColor" id="selectColor" type="color">
+
+            <select class="selectFigure" id="selectFigure">
+                <option value="rectangle">Прямоугольник</option>
+                <option value="elipse">Круг</option>
+                <option value="square">квадрат</option>
+            </select>
+        </div>
+        <div class="block-figure" id="figure"></div>
+        <div class="doNotSee">
+            <div class="rectangle" id="rectangle"></div>
+            <div class="elipse" id="elipse"></div>
+            <div class="square" id='square'></div>
+        </div>
+    </div>
+    <script src="./script.js" defer></script>
+</body>
+
+</html>

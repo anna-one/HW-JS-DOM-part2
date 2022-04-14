@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    height: auto;
+}
+
+
+.block-figure {
+    width: 1000px;
+    height: 1000px;
+    background-color: bisque;
+}
+
+.doNotSee{
+    display: none;
+}
+
+.rectangle{
+    width: 500px;
+    height: 350px;
+}
+
+.elipse{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.square{
+    width: 500px;
+    height: 500px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+}
+
+.block-setting{
+    display: flex;
+    flex-direction: column;
+}
